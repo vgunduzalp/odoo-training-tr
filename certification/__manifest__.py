@@ -7,10 +7,12 @@
         'base'
     ],
     "data": [ 'security/ir.model.access.csv',
+                'security/certification_security.xml',
               'views/certification_view.xml',
               'views/standard_view.xml',
               'views/res_partner_view.xml'
     ],
     'development_status':'Beta',
     'maintainers':['ceeficent'],
+    'demo': ['demo/certification_data.xml'],
 }
