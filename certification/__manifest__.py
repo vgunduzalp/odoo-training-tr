@@ -4,7 +4,7 @@
     'version': '12.0.1.0.0',
     "category":"Certification ",
     "depends": [
-        'base'
+        'base','hr','employeeid'
     ],
     "data": [ 'security/ir.model.access.csv',
                 'security/certification_security.xml',
@@ -14,5 +14,5 @@
     ],
     'development_status':'Beta',
     'maintainers':['ceeficent'],
-    'demo': ['demo/certification_data.xml'],
+    'demo': ['demo/certification_data.xml','demo/employee_data.xml'],
 }

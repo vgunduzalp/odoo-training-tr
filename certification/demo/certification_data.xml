@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo noupdate="1">
     <record id ="entity_demo"  model="res.partner">
-    <field name="name">Entity Demo</field>
+        <field name="name">Entity Demo</field>
         <field name="is_certification_body">True</field>
     </record>
     <record id ="supplier_demo"  model="res.partner">

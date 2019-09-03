@@ -11,4 +11,5 @@
     ],
     'development_status':'Beta',
     'maintainers':['ceeficent'],
+    'demo': []
 }
