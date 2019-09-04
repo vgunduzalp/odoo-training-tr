@@ -35,4 +35,34 @@
         parent="certification_menu"
         action="action_report_certification"
         sequence="25"/>
+
+
+
+
+
+    <act_window id="action_report_certification2"
+      name="Deneme 2"
+      res_model="certification.report"
+      view_mode="graph,pivot"
+       target="current"/>
+
+      <act_window id="action_report_certification3"
+      name="Deneme 2"
+      res_model="certification.report"
+      view_mode="graph,pivot"
+       target="current"/>
+
+
+      <menuitem id="menu_report_certification1"
+        parent="certification_menu"
+        action="action_report_certification2"
+        sequence="40"/>
+
+
+    <menuitem id="menu_report_certification2"
+        parent="menu_report_certification1"
+        action="action_report_certification3"
+        sequence="25"/>
+
+
 </odoo>
