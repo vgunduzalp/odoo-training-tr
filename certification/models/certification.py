@@ -26,7 +26,7 @@ class Certification(models.Model):
             raise ValidationError('It is not a certification entity')
 
 
-    @api.depends ('date')
+    @api.depends('date')
     def _compute_expiry_days(self):
         if self.date:
             self.expiry_days = (self.date - fields.Date.today()).days
