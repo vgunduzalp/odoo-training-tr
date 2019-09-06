@@ -105,7 +105,7 @@
                                     <span class="o_kanban_record_subtitle"><field name="assigned_to"/></span>
                                     <span class="o_kanban_record_subtitle">Start: <field name="start_date"/></span>
                                     <span class="o_kanban_record_subtitle">Deadline: <field name="deadline"/></span>
-                                    
+
                                     <span class="o_kanban_record_subtitle">Effort: <field name="effort"/> hours</span>
                                 </div>
                             </div>
